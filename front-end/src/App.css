@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.santa-list {
+  display: flex;
+  justify-content: center;
+}
+.left {
+  background-color: #90de95;
+  margin: 10px;
+  border-radius: 25px;
+  width: 45%;
+}
+.right {
+  background-color: #de9090;
+  margin: 10px;
+  border-radius: 25px;
+  width: 45%;
+}
+.nice-list,
+.naughty-list {
+  margin: 30px;
+  text-align: center;
+}
+.child {
+  display: flex;
+  justify-content: flex-start;
+}
+.description {
+  text-align: left;
+}
+.buttons {
+  margin: 15px 15px 15px 30px;
+  text-align: right;
+}
+.to-naughty-button {
+  margin: 5px 3px;
+  background-color: #000;
+  color: #FFF;
+  height: 30px;
+}
+.to-nice-button {
+  margin: 5px 3px;
+  background-color: #FFF;
+  color: #000;
+  height: 30px;
+}
+.downvote-button {
+  margin: 5px 3px;
+  background-color: #c54245;
+  color: #FFF;
+  height: 30px;
+}
+.upvote-button {
+  margin: 5px 3px;
+  background-color: #1E792C;
+  color: #FFF;
+  height: 30px;
+}
+
